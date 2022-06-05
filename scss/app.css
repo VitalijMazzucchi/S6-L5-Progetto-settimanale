@@ -1,0 +1,18 @@
+main section:first-child {
+  background-image: url(/img/Gif-digital.gif);
+  background-size: cover;
+}
+
+main #partnerships:nth-child(3) div:nth-child(3) {
+  margin-top: 2rem;
+}
+
+main #partnerships:nth-child(3) div:last-child {
+  margin-top: 1.5rem;
+}
+
+/*     footer {
+        background-color:$colore;
+        color:dark_light_mode($colore);            
+    } */
+/*# sourceMappingURL=app.css.map */

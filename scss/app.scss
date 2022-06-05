@@ -1,0 +1,30 @@
+
+@import 'function';
+$colore:hsl(0, 56%, 19%);
+
+main {
+    section:first-child{
+      
+        background-image: url(/img/Gif-digital.gif);
+        background-size: cover;
+        
+    }
+
+    #partnerships:nth-child(3){
+        div{
+            &:nth-child(3){
+            margin-top: 2rem;
+            }
+        &:last-child{
+            margin-top: 1.5rem;
+            }
+        }
+    }  
+
+}
+
+/*     footer {
+        background-color:$colore;
+        color:dark_light_mode($colore);            
+    } */
+

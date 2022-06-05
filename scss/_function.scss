@@ -1,0 +1,9 @@
+$darkmode: hsl(147, 44%, 56%);
+
+@function dark_light_mode($colore) {
+  @if (lightness($colore) > 50) {
+    @return #000000; 
+  } @else {
+    @return #ffffff;
+  }
+}
